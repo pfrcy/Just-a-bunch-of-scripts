@@ -37,7 +37,7 @@ python dovecot_log_analyzer.py <logname>_2025-xx-xx.log --exclude-ips 1.1.1.1
 
 
 ```bash
-python dovecot_log_analyzer.py oplux_2025-09-29.log --exclude-ips "1.1.1.1,8.8.8.8"
+python dovecot_log_analyzer.py <logname>_2025-09-29.log --exclude-ips "1.1.1.1,8.8.8.8"
 
 ```
 ### IPs aus Datei :
@@ -45,7 +45,7 @@ exclude_ips.txt
 
 
 ```bash
-python dovecot_log_analyzer.py oplux_2025-09-29.log --exclude-ips exclude_ips.txt
+python dovecot_log_analyzer.py <logname>_2025-09-29.log --exclude-ips exclude_ips.txt
 
 ```
 Die exclude_ips.txt sollte so formatiert sein:
